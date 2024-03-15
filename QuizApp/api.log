@@ -1,0 +1,26 @@
+2024-03-14T11:47:22.389+05:30  INFO 9092 --- [main] B.QuizApp.QuizAppApplication             : Starting QuizAppApplication using Java 20.0.2.1 with PID 9092 (C:\Users\MFSPC0010\Downloads\QuizApp\QuizApp\target\classes started by MFSPC0010 in C:\Users\MFSPC0010\Downloads\QuizApp)
+2024-03-14T11:47:22.399+05:30 DEBUG 9092 --- [main] B.QuizApp.QuizAppApplication             : Running with Spring Boot v3.2.2, Spring v6.1.3
+2024-03-14T11:47:22.401+05:30  INFO 9092 --- [main] B.QuizApp.QuizAppApplication             : No active profile set, falling back to 1 default profile: "default"
+2024-03-14T11:47:23.860+05:30  INFO 9092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-14T11:47:23.938+05:30  INFO 9092 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2024-03-14T11:47:24.774+05:30  INFO 9092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8082 (http)
+2024-03-14T11:47:24.793+05:30  INFO 9092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-14T11:47:24.793+05:30  INFO 9092 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-03-14T11:47:24.874+05:30  INFO 9092 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-14T11:47:24.874+05:30  INFO 9092 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2388 ms
+2024-03-14T11:47:25.134+05:30  INFO 9092 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-14T11:47:25.237+05:30  INFO 9092 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.4.1.Final
+2024-03-14T11:47:25.292+05:30  INFO 9092 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-03-14T11:47:25.558+05:30  INFO 9092 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-14T11:47:25.591+05:30  INFO 9092 --- [main] com.zaxxer.hikari.HikariDataSource       : d1 - Starting...
+2024-03-14T11:47:26.088+05:30  INFO 9092 --- [main] com.zaxxer.hikari.pool.HikariPool        : d1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a6195b8
+2024-03-14T11:47:26.091+05:30  INFO 9092 --- [main] com.zaxxer.hikari.HikariDataSource       : d1 - Start completed.
+2024-03-14T11:47:26.199+05:30  WARN 9092 --- [main] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-03-14T11:47:26.200+05:30  WARN 9092 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2024-03-14T11:47:27.152+05:30  INFO 9092 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-14T11:47:27.340+05:30  INFO 9092 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-14T11:47:27.649+05:30  INFO 9092 --- [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2024-03-14T11:47:27.961+05:30  WARN 9092 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-14T11:47:28.564+05:30  INFO 9092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8082 (http) with context path ''
+2024-03-14T11:47:28.573+05:30  INFO 9092 --- [main] B.QuizApp.QuizAppApplication             : Started QuizAppApplication in 6.884 seconds (process running for 7.96)
+2024-03-14T14:00:21.035+05:30  WARN 9092 --- [d1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : d1 - Thread starvation or clock leap detected (housekeeper delta=21m53s172ms372µs700ns).
